@@ -1,0 +1,67 @@
+body{
+
+	font-size: 16px;
+	color:#fff;
+	background: #adadad;
+	margin: 0;
+
+}
+/****HEADER**/
+#header-nav {
+	background-color:#c5d2e2;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+color: white;
+font-size: 2em;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+
+.navbar-collapse {
+	border-top: 0;
+	border-bottom: 0;
+	text-align: center;
+}
+.navbar-default .navbar-nav>li>a {
+	color: red;
+	background-color: white;
+	margin-bottom: 0;
+
+}
+.container-fluid {
+	margin-bottom: -10px;
+}
+
+h1 {
+	color: black;
+}
+
+
+
+#first{
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+#second{
+	margin-bottom: 30px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  
+}
